@@ -11,7 +11,7 @@ const InstructorCard = ({instructor}) => {
 
     <div style={{border: '1px solid gray', margin: '10px', padding: '10px' }}>
       
-      <img src={instructor.image} alt={instructor.name} width='150' />
+      {/* <img src={instructor.image} alt={instructor.name} width='150' /> */}
       <h2>{instructor.name}</h2>
       <p>{instructor.designation}</p>
 

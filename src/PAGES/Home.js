@@ -10,10 +10,10 @@ const Home = () => {
       <section className="bg-dark text-white text-center p-5">
         <h1>Welcome to Our Training Institute</h1>
         <p>Learn in-demand skills and build your career.</p>
-        <button className="btn btn-warning">Explore Courses</button>
+        {/* <button className="btn btn-warning">Explore Courses</button> */}
       </section>
       {/* INTRO SECTION */}
-      <section style={{ padding: "30px" }}>
+      <section className="bg-dark text-white" style={{ padding: "30px"  }}>
         <h2>About Us</h2>
         <p>
           We provide high quality training programs in IT, Design and Business.
@@ -22,7 +22,7 @@ const Home = () => {
       </section>
 
       {/* FEATURED COURSES */}
-      <section style={{ padding: "30px", background: "#f9f9f9" }}>
+      <section className="bg-dark text-white" style={{ padding: "30px", background: "#f9f9f9" }}>
         <h2>Featured Courses</h2>
 
         {coursesData.slice(0, 3).map((course) => (
@@ -35,7 +35,7 @@ const Home = () => {
       </section>
 
       {/* WHY CHOOSE US */}
-      <section style={{ padding: "30px" }}>
+      <section className="bg-dark text-white" style={{ padding: "30px" }}>
         <h2>Why Choose Us</h2>
         <ul>
           <li>Experienced Instructors</li>

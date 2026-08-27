@@ -9,8 +9,8 @@ const Courses = () => {
 
   return (
    <>
-    <h2>COURSE PAGE</h2>
-    <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
+    
+    <div className="bg-dark text-white" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
     {coursesData.map((course) => (
       <CourseCard key={course.id} course={course} />
     ))}

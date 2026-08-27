@@ -5,7 +5,7 @@ const instructorsData = [
     designation: "Senior Web Developer",
     expertise: "HTML, CSS, JavaScript",
     experience: "5 Years",
-    image: "https://via.placeholder.com/200"
+    // image: "https://via.placeholder.com/200"
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const instructorsData = [
     designation: "React Specialist",
     expertise: "React, Redux, Hooks",
     experience: "4 Years",
-    image: "https://via.placeholder.com/200"
+    // image: "https://via.placeholder.com/200"
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const instructorsData = [
     designation: "JavaScript Expert",
     expertise: "JS, ES6+, Node.js",
     experience: "6 Years",
-    image: "https://via.placeholder.com/200"
+    // image: "https://via.placeholder.com/200"
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const instructorsData = [
     designation: "UI/UX Designer",
     expertise: "Figma, Adobe XD",
     experience: "3 Years",
-    image: "https://via.placeholder.com/200"
+    // image: "https://via.placeholder.com/200"
   }
 ];
 

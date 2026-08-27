@@ -1,5 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom';
+// import { BrowserRouter } from "react-router-dom";
+// import { HashRouter as Router } from "react-router-dom";
 import './App.css';
 
 import Home from './PAGES/Home';
